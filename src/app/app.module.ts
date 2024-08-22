@@ -12,11 +12,14 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import {MatTableModule} from '@angular/material/table';
+import { UsersDetailComponent } from './users-detail/users-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DailogComponent
+    DailogComponent,
+    UsersDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import {MatInputModule} from '@angular/material/input';
     MatButtonModule,
     MatDividerModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
