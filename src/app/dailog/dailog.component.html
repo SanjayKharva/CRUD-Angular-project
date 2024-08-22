@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>Add user</h1>
+
+<mat-divider></mat-divider>
+
+<div mat-dialog-content>
+    <mat-form-field style="width: 100%">
+        <mat-label>users</mat-label>
+        <input matInput>
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button color="warn" (click)="onCloseClick()">Close</button>
+    <button mat-raised-button color="primary" (click)="onSaveClick()">Save</button>
+
+    <!-- <button mat-raised-button color="primary" disabled>Update</button> -->
+    <!-- (click)="onUpdateClick()" -->
+</div>
